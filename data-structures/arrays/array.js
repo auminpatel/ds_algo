@@ -1,3 +1,4 @@
+// Array basic implementation
 export class Arr {
     length = 0;
     data = {}
