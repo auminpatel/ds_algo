@@ -7,6 +7,7 @@ Strings behave much like normal arrays, with the main distinction being that, in
 The canonical example of an operation that's deceptively expensive due to string immutability is the following:
 
 string = "this is a string"
+
 newString = ""
 
 for character in string:
