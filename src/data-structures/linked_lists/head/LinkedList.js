@@ -1,5 +1,5 @@
-import Comparator from "../comparator"
-import { LinkedListNode } from "./LinkedListNode"
+import Comparator from "../../comparator"
+import { LinkedListNode } from "../LinkedListNode"
 
 export class LinkedList {
   constructor(comparatorFunction) {
@@ -78,6 +78,35 @@ export class LinkedList {
    return deletedNode;
  }
 
+ insert(value, rawIndex){
+  let index  = rawIndex< 0 ? 0 : rawIndex;
+
+  if(index===0) {
+    this.prepend(value);
+  }
+  else {
+    count = 1 ;
+    let current = this.head;
+
+    const newNode = new LinkedListNode(value);
+    while(current) {
+      if(count === index) break;
+      current = current.next;
+      count ++;
+    }
+
+    if(current) {
+      newNode.next = current.next;
+      current.next = newNode;
+    }
+    else {
+      this.head = newNode;
+      this.tail = newNode;
+    }
+
+  }
+  return this
+ }
 
  deleteHead() {
   if(!this.head) {
