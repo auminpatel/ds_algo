@@ -10,4 +10,4 @@ The following are a stack's standard operations and their corresponding time com
 - Peeking at the element on the top of the stack: O(1)
 - Searching for an element in the stack: O(n)
 
-A stack is typically implemented with a **dynamic array** or with a singly linked list.
+A stack is typically implemented with a **dynamic array** or with a **singly linked list**.
