@@ -1,4 +1,4 @@
-import Comparator from '../../utils/comparator/Comparator';
+import Comparator from "../../data-structures/comparator.js";
 
 /**
  * @typedef {Object} SorterCallbacks
@@ -7,6 +7,7 @@ import Comparator from '../../utils/comparator/Comparator';
  * @property {function(a: *)} visitingCallback - If provided it will be called each time the sorting
  *  function is visiting the next element.
  */
+
 
 export default class Sort {
   constructor(originalCallbacks) {
