@@ -1,4 +1,4 @@
-import Sort from '../Sort';
+import Sort from '../Sorting';
 
 export default class SelectionSort extends Sort {
   sort(originalArray) {
