@@ -38,8 +38,4 @@ hi - Ending index in arr[]
 
 - [GeeksForGeeks](https://www.geeksforgeeks.org/interpolation-search/)
 - [Wikipedia](https://en.wikipedia.org/wiki/Interpolation_search)
-
-
-
-
-Reference KT https://medium.com/@smellycode/demystifying-interpolation-formula-for-interpolation-search-211780c43269
+- [Medium] https://medium.com/@smellycode/demystifying-interpolation-formula-for-interpolation-search-211780c43269
