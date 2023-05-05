@@ -85,6 +85,7 @@ import Sort from "../Sorting.js";
       // Call visiting callback.
       this.callbacks.visitingCallback(minElement);
     }
+    console.log()
 
     // There will be elements remaining from either the left OR the right
     // Concatenate the remaining elements into the sorted array
